@@ -1,0 +1,21 @@
+{
+  "short_name": "Assassin",
+  "name": "Killer Mage",
+  "icons": [
+    {
+      "src": "/assassin/dragon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/assassin/dragon2.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/assassin/game.html",
+  "background_color": "#9b0000",
+  "display": "standalone",
+  "scope": "/assasin/",
+  "theme_color": "#9b0000"
+}

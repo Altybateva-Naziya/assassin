@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="/assasin/manifest.json">
+    <meta charset="UTF-8">
+    <title>weather</title>
+<meta name="theme-color" content="#9b0000">
+  <link rel="icon" sizes="192x192" href="/assasin/dragon2.png">
+<meta name="description" content="K-K-T">
+
+<link rel="apple-touch-icon" href="/assassin/dragon2.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CODELAB: Add iOS meta tags and icons -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Assassin">
+</head>
+
+<body>
+<img id="4" style="display: none; width: 1124px; height: 512px; position: fixed" src="win.jpg">
+<img id="3" style="display: none; width: 1124px; height: 512px; position: fixed" src="gm.png">
+    <canvas  id="myCanvas" width="1124" height="512" style="border:1px solid #000000;, ",>
+        <img id="1" style="display: none; position: fixed" src="loading.gif">
+</canvas>
+</body>
+    <script src="js/keypress.js"></script>
+    <script id="2" type="module" src="js/index.js">
+        </script>
+<audio src="audio/bestsong.mp3" id="8"></audio>
+<audio src="audio/beg-po-trave.mp3" id="9"></audio>
+<script>
+    // CODELAB: Register service worker.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/assassin/service-worker.js')
+        .then((reg) => {
+          console.log('Service worker registered.', reg);
+        });
+  });
+}
+</script>
+</html>
